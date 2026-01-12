@@ -1,77 +1,74 @@
-body {
-.nav-links a {
-margin-left: 30px;
-text-decoration: none;
-color: #222;
-}
-
-
-.hero {
-padding: 120px 60px;
-text-align: center;
-}
-
-
-.hero h1 {
-font-size: 48px;
-margin-bottom: 10px;
-}
-
-
-.section {
-padding: 60px;
-max-width: 1000px;
-margin: auto;
-}
+/* Google Fonts used to closely match the PDF brochure style */
 
 
 .section.light {
-background: #f7f7f7;
+background: var(--light-grey);
 }
 
 
+/* Highlights */
 .highlights {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-gap: 20px;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 25px;
+margin-top: 30px;
 }
 
 
 .highlights div {
-padding: 20px;
+padding: 25px;
 background: white;
-border: 1px solid #eee;
+border: 1px solid var(--border-grey);
+font-size: 14px;
 }
 
 
+/* Cards / Plans */
 .cards {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-gap: 30px;
-padding: 0 60px 60px;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 35px;
+padding: 0 70px 80px;
 }
 
 
 .card {
-border: 1px solid #eee;
-padding: 30px;
+border: 1px solid var(--border-grey);
+padding: 35px;
+}
+
+
+.card h3 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 5px;
 }
 
 
 .card span {
 display: block;
-font-size: 24px;
-margin: 10px 0;
+font-size: 26px;
+margin: 15px 0;
 }
 
 
+.card p {
+font-size: 14px;
+color: var(--soft-grey);
+}
+
+
+/* Lists */
 .list li {
-margin-bottom: 10px;
+margin-bottom: 12px;
+color: var(--soft-grey);
 }
 
 
+/* Footer */
 .footer {
 text-align: center;
-padding: 30px;
-border-top: 1px solid #eee;
+padding: 35px;
+border-top: 1px solid var(--border-grey);
+font-size: 13px;
+color: var(--soft-grey);
 }
