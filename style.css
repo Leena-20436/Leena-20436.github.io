@@ -43,7 +43,7 @@ body {
 }
 
 .logo {
-  height: 48px; /* adjusted logo size */
+  height: 56px; /* adjusted logo size */
   width: auto;
 }
 
@@ -155,9 +155,10 @@ body {
 /* Slightly larger logo on desktop */
 @media (min-width: 1024px) {
   .logo {
-    height: 56px;
+    height: 66px;
   }
 }
+
 
 
 
