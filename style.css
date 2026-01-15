@@ -43,7 +43,7 @@ body {
 }
 
 .logo {
-  height: 38px; /* adjusted logo size */
+  height: 48px; /* adjusted logo size */
   width: auto;
 }
 
@@ -152,4 +152,5 @@ body {
   border-top: 1px solid #eee;
   color: #6f6f6f;
 }
+
 
